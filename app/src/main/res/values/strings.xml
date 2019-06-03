@@ -1,0 +1,130 @@
+<resources>
+<string name="app_name">Book lovers Inventory</string>
+
+<!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+<string name="hint_book_name">Title</string>
+
+<!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+<string name="hint_book_price">Price</string>
+
+<!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+<string name="hint_book_quantity">Quantity</string>
+
+<!-- Units for supplier of the book[CHAR LIMIT=5] -->
+<string name="unit_book_supplier">Supplier</string>
+
+<!-- Units for phone number of the supplier of the book [CHAR LIMIT=5] -->
+<string name="unit_supplier_number">Phone number</string>
+
+<!-- Example Book name -->
+<string name="book_name_example">A short history of nearly everything</string>
+
+    <!-- Example Book name -->
+    <string name="book_supplier_example">Katja Nagelkerke</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for quantity information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for supplier name information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier_name">Supplier</string>
+
+    <!-- Label for supplier number information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier_number">Supplier number</string>
+
+    <!-- Label for overflow menu option that deletes all book data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Books</string>
+
+    <!-- Label for overflow menu option that inserts fake book data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for editor menu option to save book and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current book [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_successful">Book saved</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_book_failed">Error with saving book</string>
+
+    <!-- Title text for the empty view, which describes the empty bookcase image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit dusty here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a book [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a book</string>
+
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_book">Add a Book</string>
+
+    <!-- Title for the activity to add a new book [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <!-- String for if the book failed to be edited. -->
+    <string name="editor_update_book_failed">O no, no book was updated.</string>
+
+    <!-- String for if the book failed to be edited. -->
+    <string name="editor_update_book_successful">Yeaaaah the book was updated.</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current book was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg_main">Delete ALL the books?</string>
+
+    <!-- Toast message in editor when current pet was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_successful_main">All books deleted</string>
+
+    <!-- Toast message in editor when current pet has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_book_failed_main">Error with deleting all books</string>
+
+
+    <!-- Dialog button text for the option to confirm deleting the current book [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Button for the sale option [CHAR LIMIT=20] -->
+    <string name="button_sale">Sale</string>
+
+    <!-- Toast msg out of stock [CHAR LIMIT=20] -->
+    <string name="out_of_stock">Sorry, we are out of stock</string>
+
+    <!-- Toast msg sale ok [CHAR LIMIT=20] -->
+    <string name="sale_ok">Product sold</string>
+
+    <!-- Toast sale failed [CHAR LIMIT=20] -->
+    <string name="sale_failed">Failed to sale product</string>
+
+    <string name="call_supplier">Call supplier</string>
+
+    <string name="unvalid_name">Book requires title</string>
+    <string name="unvalid_price">Book requires price</string>
+    <string name="unvalid_quantity">Book requires minimum quantity of 1</string>
+    <string name="unvalid_supplier_name">Book requires supplier</string>
+    <string name="unvalid_supplier_number">Book requires phone number</string>
+    <string name="invalid_data_on_save">Try putting in the right texts</string>
+
+
+</resources>
